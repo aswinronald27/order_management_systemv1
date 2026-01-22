@@ -1,0 +1,15 @@
+.file-input {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+    cursor: pointer;
+}
+.preview-img {
+  width: 100%;
+  height: auto;
+  max-height: 40vh;     /* Image scales dynamically */
+  object-fit: contain;  /* Prevents it from being cut */
+  border-radius: 10px;
+  margin-top: 10px;
+  display: block;
+}

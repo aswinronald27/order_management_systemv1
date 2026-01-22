@@ -1,0 +1,54 @@
+
+.order-card {
+  width: 260px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+  margin: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.order-header {
+  background: #faf5e4;       
+  padding: 12px;
+  font-size: 14px;
+  color: #5c4d37;
+}
+
+.order-header p {
+  margin: 3px 0;
+}
+.assigned-text {
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.assigned-text strong {
+  color: #000;
+}
+
+/* Tab Section */
+.order-tab {
+  background: #2f6faf;        
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+/* Image Section */
+.order-image {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.order-image img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
